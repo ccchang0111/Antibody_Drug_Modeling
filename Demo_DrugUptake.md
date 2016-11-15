@@ -38,7 +38,7 @@ KD = 2 # nM
 hematocrit = 0.45
 
 # calculate Ktrans from estimated P_day
-source("/Users/changc25/Google Drive/Andrew/@Genentech/gResearch/R code/Uptake Prediction/Initial_parameters.R")
+source("~/Initial_parameters.R")
 iniP = Initial_parameters(MW=MW)
 P_day = iniP[["P"]] # P unit: cm/day
 S_over_V = 23 # 1/cm
